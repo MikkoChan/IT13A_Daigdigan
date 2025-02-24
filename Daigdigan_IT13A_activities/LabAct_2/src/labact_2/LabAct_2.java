@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package daigdigan_it13a_activities;
+package labact_2;
 
 /**
  *
  * @author binx
  */
-public class Daigdigan_IT13A_activities {
+public class LabAct_2 {
 
     /**
      * @param args the command line arguments

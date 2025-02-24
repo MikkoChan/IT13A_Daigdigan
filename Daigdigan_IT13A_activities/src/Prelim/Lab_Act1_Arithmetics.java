@@ -2,12 +2,12 @@
 package Prelim;
 
 import java.util.Scanner;
-
-
 public class Lab_Act1_Arithmetics {
+ 
+public static void main(String[]args){
     Scanner in = new Scanner(System.in);
 
-    System.out.printIn ("Enter First number: ");
+    System.out.println ("Enter First number: ");
         int x= in.nextInt();
 
     System.out.print("Enter Second number: ");
@@ -17,9 +17,11 @@ public class Lab_Act1_Arithmetics {
         int z= in.nextInt();       
 
 
-        System.out.println(x + "*"+ y + "+" z + "=" + (x*y+z));
+        System.out.println(x + "*" + y + "+" + z + "=" + (x*y+z));
         System.out.println("(" + x + "-" + y + ")%" + z + "=" + ((x-y)%z));
         System.out.println("(" + x + "+" + y + "+" + z +")" + "/3"+"=" + ((x+y+z)/3));
-        System.out.println(x + "*" + z + "-(" + y + "*" + Y + "=" + (x*z-(y*y)));
+        System.out.println(x + "*" + z + "-(" + y + "*" + y + "=" + (x*z-(y*y)));
 
+}
+   
 }
