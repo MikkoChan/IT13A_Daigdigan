@@ -21,13 +21,13 @@ public class FoodOrderingSystemProject{
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("=== Welcome to QuickBite ===");
+        System.out.println("=== Welcome to QuickieBite ===");
 
         while (true) {
             System.out.println("\n[1] Create Account\n[2] Login\n[3] Exit");
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            scanner.nextLine(); 
 
             if (choice == 1) {
                 createAccount(scanner);
